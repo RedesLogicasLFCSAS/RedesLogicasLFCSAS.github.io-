@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio de proyectos</title>
+    <title>Portafolio de Poryectos Y Servicios</title>
     <style>
             /*<!-- css-->*/
         form {
@@ -27,7 +27,7 @@ input, textarea {
 }
 
 button {
-    background: #2c3e50;
+    background: #4488cd;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -93,7 +93,7 @@ button {
 }
 
 .cerrar:hover {
-    color: #a62424;
+    color: #2f4085;
 }/*efecto zoom suave*/
 .modal-contenido {
     transition: transform 0.3s;
@@ -156,59 +156,297 @@ button {
             color: white;
             text-align: center;
             padding: 10px 0;
-        }
+        }.titulo-categoria {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Espacio entre ícono y texto */
+    padding: 15px 20px;
+    background: #3c5580;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin: 0 auto; /* Centra el contenedor si tiene ancho limitado */
+}/* Estilo para el logo */
+.logo-categoria {
+    width: 350px; /* Ajusta el tamaño */
+    height: 80px;
+    margin-right: 80px; /* Espacio entre logo y texto */
+    object-fit: contain; /* Para que no se distorsione */
+}
+
+/* Ajuste adicional para el título */
+.titulo-categoria {
+    display: flex;
+    align-items: center;
+    padding: 15px 30px; /* Ajusta el espacio interno */
+}
     </style>
+    
 </head>
 <body>
     <!-- ENCABEZADO -->
+
+    <div class="titulo-categoria">
+        <img src="logo.png" class="logo-categoria"> <!-- Cambia "logo.png" por el nombre de tu archivo -->
+        <h2></h2>
+    </div>
     <header>
-        <h1>Portafolio de Proyectos - Redes Logicas LFC sas</h1>
-        <p>Desarrollador By Ingepac 2025 | Diseñador</p>
+        <h2>Portafolio de Proyectos y Servicios 
+           </h2>
+        <p>Nacida en Cali – Colombia en el 
+            año 2015 y aportando a la 
+            construcción y desarrollo de
+             proyectos de la ciudad y el país.<p>
+             Con un eslogan que detalla lo 
+            que hacemos: <p> Diseño  Ingeniería
+            Infraestructura e Instalaciones 
+            Eléctricas y Tecnológicas.<p></p> Presentamos algunos de nuestros proyectos.</p>
         <nav>
             <a href="#proyectos">Proyectos</a>
             <a href="#contacto">Contacto</a>
         </nav>
     </header>
+
     
     <!-- PROYECTOS -->
-    <section id="proyectos" class="proyectos">
-        <div class="proyecto">
-            <img src="imagen1.jpg" alt="Proyecto 1 "> <!-- Cambia la ruta de la imagen -->
-            <div class="proyecto-info">
-                <h3>Proyecto 1</h3>
-                <p>Proyecto M.T Tulua 112.5Kva Con medida indirecta.</p>
-            </div>
-        </div>
-        
-        <div class="proyecto">
-            <img src="imagen2.jpg" alt="Proyecto 2"> <!-- Cambia la ruta de la imagen -->
-            <div class="proyecto-info">
-                <h3>Proyecto 2</h3>
-                <p>Proyecto solar 5Kw - Mantenimiento Jamundi con Microinversores.</p>
-            </div>
-        </div>
-        <div class="proyecto">
-            <img src="imagen3.jpg" alt="Proyecto 3"> <!-- Cambia la ruta de la imagen -->
-            <div class="proyecto-info">
-                <h3>Proyecto 3</h3>
-                <p>Proyecto solar 5Kw - Mantenimiento Jamundi Medicion y Pruebas.</p>
-            </div>
+
+<!-- SECCIÓN DE CATEGORÍAS -->
+<section id="proyectos">
+    <!-- Categoría 1 -->
+    <div class="categoria">
+        <h2 class="titulo-categoria">Proyectos Energia Fotovoltaica</h2>
+        <div class="proyectos-container">
+            <!-- Proyecto 1 -->
+            <section id="proyectos" class="proyectos">
+                <div class="proyecto">
+                    <img src="imagen8.jpg" alt="Proyecto 1 "> <!-- Cambia la ruta de la imagen -->
+                    <div class="proyecto-info">
+                        <h3>Proyecto 1</h3>
+                        <p>Proyecto Solar Microinversor Bomberos Estacion X8 Torre OFF-GRIF.</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="imagen2.jpg" alt="Proyecto 2"> <!-- Cambia la ruta de la imagen -->
+                    <div class="proyecto-info">
+                        <h3>Proyecto 2</h3>
+                        <p>Proyecto solar 5Kw - Mantenimiento Jamundi con Microinversores.</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="imagen3.jpg" alt="Proyecto 3"> <!-- Cambia la ruta de la imagen -->
+                    <div class="proyecto-info">
+                        <h3>Proyecto 3</h3>
+                        <p>Proyecto solar 5Kw - Mantenimiento Jamundi Medicion y Pruebas.</p>
+                    </div>
+                    
+                </div>
+
+                <div class="proyecto">
+                    <img src="imagen6.jpg" alt="Proyecto 6"> <!-- Cambia la ruta de la imagen -->
+                    <div class="proyecto-info">
+                        <h3>Proyecto 4</h3>
+                        <p>Sistema OFF-GRIF 5KW Micorinversores - Mantenimiento Jamundi Celsia.</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="imagen7.jpg" alt="Proyecto 7"> <!-- Cambia la ruta de la imagen -->
+                    <div class="proyecto-info">
+                        <h3>Proyecto 5</h3>
+                        <p>Sistema OFF-GRIF 3KW Inversor - Mantenimiento Tres Cruces Antenas Bomberos Cali.</p>
+                    </div>
+                </div>
+                
+                <div class="proyecto">
+                    <img src="imagen9.jpg" alt="Proyecto 9"> <!-- Cambia la ruta de la imagen -->
+                    <div class="proyecto-info">
+                        <h3>Proyecto 6</h3>
+                        <p>Sistema ON-GRIF 10KW Inversor - Mantenimiento Hotel Bomberos Cali.</p>
+                    </div>
+                </div>
             
+                <div class="proyecto">
+                    <img src="imagen14.jpg" alt="Proyecto 9"> <!-- Cambia la ruta de la imagen -->
+                    <div class="proyecto-info">
+                        <h3>Proyecto 7</h3>
+                        <p>Iluminacion Solar.</p>
+                    </div>
+                </div>
+
+
         </div>
-       
-        <div class="proyecto">
-            <img src="imagen4.jpg" alt="Proyecto 4"> <!-- Cambia la ruta de la imagen -->
-            <div class="proyecto-info">
-                <h3>Proyecto 4</h3>
-                <p>Celdas B.T Subestacion 630 Kva.</p>
+    </div>
+
+    <!-- Categoría 2 -->
+    <div class="categoria">
+        <h2 class="titulo-categoria">Proyectos Eenergia Electrica</h2>
+        <div class="proyectos-container">
+            <!-- Proyecto 2 -->
+            <section id="proyectos" class="proyectos">
+
+            <div class="proyecto">
+                <img src="imagen4.jpg" alt="Proyecto 4"> <!-- Cambia la ruta de la imagen -->
+                <div class="proyecto-info">
+                    <h3>Proyecto 1</h3>
+                    <p>Celdas B.T Subestacion 630 Kva. Unidad EL Guayacan.</p>
+                </div>
             </div>
-        </div>
+    
+            <div class="proyecto">
+                <img src="imagen5.jpg" alt="Proyecto 5"> <!-- Cambia la ruta de la imagen -->
+                <div class="proyecto-info">
+                    <h3>Proyecto 2</h3>
+                    <p>Subestacion 630 Kva. Unidad EL Guayacan.</p>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <img src="imagen10.jpg" alt="Proyecto 5"> <!-- Cambia la ruta de la imagen -->
+                <div class="proyecto-info">
+                    <h3>Proyecto 3</h3>
+                    <p>Apantallamiento Descargas Atmosferica SIPRA. Hotel Bomberos Cali.</p>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <img src="imagen11.jpg" alt="Proyecto 5"> <!-- Cambia la ruta de la imagen -->
+                <div class="proyecto-info">
+                    <h3>Proyecto 4</h3>
+                    <p>Celda Distirbución 112.5 Kva. Hotel Bomberos Cali.</p>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <img src="imagen12.jpg" alt="Proyecto 5"> <!-- Cambia la ruta de la imagen -->
+                <div class="proyecto-info">
+                    <h3>Proyecto 5</h3>
+                    <p>Sistema Puesta a Tierra SPT. Todos los sistemas.</p>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <img src="imagen15.jpg" alt="Proyecto 5"> <!-- Cambia la ruta de la imagen -->
+                <div class="proyecto-info">
+                    <h3>Proyecto 6</h3>
+                    <p>Subestacion en poste 150Kva - I.E Carvajal de Cali.</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="imagen16.jpg" alt="Proyecto 5"> <!-- Cambia la ruta de la imagen -->
+                <div class="proyecto-info">
+                    <h3>Proyecto 7</h3>
+                    <p>Subestacion Patmounted 500 Kva. Unidad Residencial Zorzal Cali.</p>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <img src="imagen18.jpg" alt="Proyecto 5"> <!-- Cambia la ruta de la imagen -->
+                <div class="proyecto-info">
+                    <h3>Proyecto 8</h3>
+                    <p>Celdas de B.T. Unidad Residencial Zorzal Cali.</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="imagen17.jpg" alt="Proyecto 5"> <!-- Cambia la ruta de la imagen -->
+                <div class="proyecto-info">
+                    <h3>Proyecto 9</h3>
+                    <p>Medicion Energia de Apartamentos. Unidad Residencial Zorzal Cali.</p>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <img src="imagen19.jpg" alt="Proyecto 5"> <!-- Cambia la ruta de la imagen -->
+                <div class="proyecto-info">
+                    <h3>Proyecto 9</h3>
+                    <p>Diseños Electricos, Fotovoltaicos, Comunicaciones, Incendio - Bajo Reglamentos vigentes.</p>
+                </div>
+            </div>
+
+        </div>   
+           
+    </div>
+
+     <!-- Categoría 3 -->
+     <div class="categoria">
+        <h2 class="titulo-categoria">Proyectos Tecnologia y TI</h2>
+        <div class="proyectos-container">
+            <!-- Proyecto 3 -->
+            <section id="proyectos" class="proyectos">
+
+            <div class="proyecto">
+                <img src="imagen20.jpg" alt="Proyecto 4"> <!-- Cambia la ruta de la imagen -->
+                <div class="proyecto-info">
+                    <h3>Proyecto 1</h3>
+                    <p>Infraestructura TI red CCTV IP. Unidad Chelo Cali.</p>
+                </div>
+            </div>
+    
+            <div class="proyecto">
+                <img src="imagen21.jpg" alt="Proyecto 5"> <!-- Cambia la ruta de la imagen -->
+                <div class="proyecto-info">
+                    <h3>Proyecto 2</h3>
+                    <p>Sistema de monitoreo Central. Bomberos  Cali.</p>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <img src="imagen22.jpg" alt="Proyecto 5"> <!-- Cambia la ruta de la imagen -->
+                <div class="proyecto-info">
+                    <h3>Proyecto 3</h3>
+                    <p>Sistema de Extincion de incendios Sedes Emcali Por Co2.</p>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <img src="imagen23.jpg" alt="Proyecto 5"> <!-- Cambia la ruta de la imagen -->
+                <div class="proyecto-info">
+                    <h3>Proyecto 4</h3>
+                    <p>Cercado Electrico Perimetral. Andina Repuestos Cali.</p>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <img src="imagen24.jpg" alt="Proyecto 5"> <!-- Cambia la ruta de la imagen -->
+                <div class="proyecto-info">
+                    <h3>Proyecto 5</h3>
+                    <p>Sistema CCTV IP. Edificio ECA Cali.</p>
+                </div>
+            </div>
+
+            
+
+
+
+        </div>   
+           
+    </div>
+</section>
+
+
+
+
+
+
+
+
+   
+       
+        
+       
+        
+
+        
+
+       
          <!-- Añade más proyectos aquí -->
     </section>
     
     <!-- PIE DE PÁGINA -->
     <footer id="contacto">
-        <p>📧 Luicadena@redeslogicas.net.co | 🌐 https://redeslogicaslfcsas.github.io/RedesLogicasLFCSAS.github.io-/</p>
+        <p>📧 Luicadena@redeslogicas.net.co |Contactanos: 57 315-364-7646| 🌐 https://redeslogicaslfcsas.github.io/RedesLogicasLFCSAS.github.io-/</p>
     </footer>
 </body>
 </html>
