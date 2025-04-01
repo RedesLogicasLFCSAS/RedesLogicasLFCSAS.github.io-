@@ -169,8 +169,8 @@ button {
     margin: 0 auto; /* Centra el contenedor si tiene ancho limitado */
 }/* Estilo para el logo */
 .logo-categoria {
-    width: 350px; /* Ajusta el tamaño */
-    height: 80px;
+    width: 500px; /* Ajusta el tamaño */
+    height: 500px;
     margin-right: 80px; /* Espacio entre logo y texto */
     object-fit: contain; /* Para que no se distorsione */
 }
@@ -180,10 +180,39 @@ button {
     display: flex;
     align-items: center;
     padding: 15px 30px; /* Ajusta el espacio interno */
+}.whatsapp-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    background: #25D366; /* Color de WhatsApp */
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+}
+
+.whatsapp-btn img {
+    width: 50px;
+    height: 50px;
+}
+
+.whatsapp-btn:hover {
+    transform: scale(1.1);
+    background: #128C7E; /* Color al pasar el mouse */
 }
     </style>
     
 </head>
+<!-- Botón de WhatsApp -->
+<a href="https://wa.me/573153647646?text=Hola,%20me%20interesa%20tu%20portafolio" 
+   class="whatsapp-btn" 
+   target="_blank">
+   <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+</a>
+
+
+
 <body>
     <!-- ENCABEZADO -->
 
@@ -203,12 +232,13 @@ button {
             Infraestructura e Instalaciones 
             Eléctricas y Tecnológicas.<p></p> Presentamos algunos de nuestros proyectos.</p>
         <nav>
-            <a href="#proyectos">Proyectos</a>
-            <a href="#contacto">Contacto</a>
+                <a href="#proyectos">Proyectos</a>
+    <a href="#contacto">Contacto</a>
         </nav>
+    
     </header>
 
-    
+  
     <!-- PROYECTOS -->
 
 <!-- SECCIÓN DE CATEGORÍAS -->
@@ -425,33 +455,19 @@ button {
     </div>
 </section>
 
-
-
-
-
-
-
-
-   
-       
-        
-       
-        
-
-        
-
        
          <!-- Añade más proyectos aquí -->
     </section>
     
     <!-- PIE DE PÁGINA -->
     <footer id="contacto">
-        <p>📧 Luicadena@redeslogicas.net.co |Contactanos: 57 315-364-7646| 🌐 https://redeslogicaslfcsas.github.io/RedesLogicasLFCSAS.github.io-/</p>
+        <p>📧 Luicadena@redeslogicas.net.co | Contactanos: 57 315-364-7646 | 🌐 https://redeslogicaslfcsas.github.io/RedesLogicasLFCSAS.github.io-/</p>
     </footer>
 </body>
 </html>
 <section id=  "contacto">
-    <h2>Contacto  </h2>
+    <header>
+    <h2>Contactanos  </h2></header>
     <form action=  "https://formsubmit.co/pablocadena19@outlook.com" method="POST">
         <input type="hidden" name="_captcha" value="false">
         <input type="text" name="name" placeholder="Nombre" required>
